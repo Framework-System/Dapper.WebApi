@@ -29,6 +29,7 @@ namespace Dapper.WebApi
         {
             services.AddInfrastructure();
             services.AddControllers();
+            services.AddHealthChecks();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -52,6 +53,12 @@ namespace Dapper.WebApi
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+                endpoints.MapHealthChecks("/health"); // Adiciona o endpoint de health check
+            });
             #region Swagger
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
