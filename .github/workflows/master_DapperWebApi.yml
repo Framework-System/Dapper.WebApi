@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: dapperwebapi.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_1fcdc06bd3fd47d08df89f5a73569afd }}/dapperwebapi:${{ github.sha }}
+        tags: dapperwebapi.azurecr.io/dapperwebapi:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'DapperWebApi'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_915fb58fcdaa4a32855b3c5b574f04e4 }}
-        images: 'dapperwebapi.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_1fcdc06bd3fd47d08df89f5a73569afd }}/dapperwebapi:${{ github.sha }}'
+        images: 'dapperwebapi.azurecr.io/dapperwebapi:${{ github.sha }}'
