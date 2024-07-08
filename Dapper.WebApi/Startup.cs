@@ -30,6 +30,7 @@ namespace Dapper.WebApi
             services.AddInfrastructure();
             services.AddControllers();
             services.AddHealthChecks();
+            services.AddApplicationInsightsTelemetry();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
