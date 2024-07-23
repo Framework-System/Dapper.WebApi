@@ -1,0 +1,1 @@
+C:\Projetos FRW\openAiAssistant-frw\Dapper.WebApi\.sonarqube\out\3
