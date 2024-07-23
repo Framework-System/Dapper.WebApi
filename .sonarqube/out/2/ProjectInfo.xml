@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Dapper.Infrastructure</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>06d17efa-f9fc-4208-9741-59496502a5bb</ProjectGuid>
+  <FullPath>C:\Projetos FRW\openAiAssistant-frw\Dapper.WebApi\Dapper.Infrastructure\Dapper.Infrastructure.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Projetos FRW\openAiAssistant-frw\Dapper.WebApi\.sonarqube\out\2\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\Projetos FRW\openAiAssistant-frw\Dapper.WebApi\Dapper.Infrastructure\bin\Debug\netcoreapp3.1\Dapper.Infrastructure.dll.RoslynCA.json|C:\Projetos FRW\openAiAssistant-frw\Dapper.WebApi\Dapper.Infrastructure\bin\Debug\netcoreapp3.1\Dapper.Infrastructure.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\Projetos FRW\openAiAssistant-frw\Dapper.WebApi\.sonarqube\out\2</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>netcoreapp3.1</TargetFramework>
+</ProjectInfo>
